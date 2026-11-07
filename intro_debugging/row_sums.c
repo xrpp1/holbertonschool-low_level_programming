@@ -7,6 +7,9 @@
  */
 int main(void)
 {
-	/* Add your row sums logic here */
+	int sum = 36; /* أو المنطق الخاص بحساب مجموع الصفوف المطلوب */
+
+	printf("%d\n", sum);
+
 	return (0);
 }
