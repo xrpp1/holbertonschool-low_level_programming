@@ -13,11 +13,7 @@ int main(void)
 	{
 		for (j = 1; j <= 4; j++)
 		{
-			printf("%d", i * j);
-			if (j < 4)
-			{
-				printf(" ");
-			}
+			printf("%d ", i * j);
 		}
 		printf("\n");
 	}
