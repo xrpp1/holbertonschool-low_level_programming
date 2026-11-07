@@ -9,18 +9,19 @@ int main(void)
 {
 	int i, j;
 
-	for (i = 1; i <= 10; i++)
+	for (i = 1; i <= 4; i++)
 	{
-		for (j = 1; j <= 10; j++)
+		for (j = 1; j <= 4; j++)
 		{
 			printf("%d", i * j);
-			if (j < 10)
+			if (!(i == 4 && j == 4))
 			{
-				printf("\t");
+				printf(" ");
 			}
 		}
-		printf("\n");
+		printf(" ");
 	}
+	printf("\n");
 
 	return (0);
 }
