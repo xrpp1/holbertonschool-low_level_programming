@@ -14,14 +14,13 @@ int main(void)
 		for (j = 1; j <= 4; j++)
 		{
 			printf("%d", i * j);
-			if (!(i == 4 && j == 4))
+			if (j < 4)
 			{
 				printf(" ");
 			}
 		}
-		printf(" ");
+		printf("\n");
 	}
-	printf("\n");
 
 	return (0);
 }
